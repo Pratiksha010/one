@@ -1,0 +1,381 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyNikLsRnaP9OF9NycJ6yn4B",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pratiksha010/one/blob/main/File-1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YxsuTlhlumdw",
+        "outputId": "b24a1d4d-77a6-4165-ba89-ee7667a33f2c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[2, 4, 6, 8]\n"
+          ]
+        }
+      ],
+      "source": [
+        "# boolean True or False\n",
+        "# int , float, boolean , string\n",
+        "\n",
+        "# variables -- indentifier \n",
+        "\n",
+        "# A-Z  - City\n",
+        "# a-z  - city123\n",
+        "# _    - _newCity\n",
+        "\n",
+        "# 9hello -  invalid\n",
+        "# 9qwerty - invalid\n",
+        "# %hello - invalid\n",
+        "#  what is a list ????\n",
+        "\n",
+        "# collection of similar ? different ?? items/objects/things\n",
+        "\n",
+        "even_num = [2,4,6,8]\n",
+        "print(even_num)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "odd_num = [3,5,7,9]\n",
+        "print(odd_num)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Pu4f3aH7vcey",
+        "outputId": "089a648d-b27f-4e0d-9b5d-f9d486108e63"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[3, 5, 7, 9]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fav_list = [\"Banana\",\"Papaya\",\"Grapes\"]\n",
+        "print(fav_list)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vdIdsrpdvmfi",
+        "outputId": "b0875cb3-6227-4104-b1d3-df2908b92a34"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Banana', 'Papaya', 'Grapes']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fav_list1 = [\"Banana\",\"Papaya\",\"Grapes\",66,44,22,True]\n",
+        "print(type(fav_list))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jIBeZO0Hv7km",
+        "outputId": "7ec84c8b-b914-43a8-d871-a6770af0d266"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'list'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# How To calculate length of string\n",
+        "\n",
+        "print(len(fav_list1))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_Q_Ny4FQwIyF",
+        "outputId": "97b872a8-a775-4a87-a028-88180d04509c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "R = [\"\"]\n",
+        "print(type(R))\n",
+        "print(len(R))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zE62xkNSweV7",
+        "outputId": "72b4b4f0-19c7-4664-a0b0-bf9fa556d155"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'list'>\n",
+            "1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "R=[]\n",
+        "print(len(R))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "k6OAp_qrw263",
+        "outputId": "20bf77f3-2695-4006-a23e-f769dc39f904"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "R=[\" \"]\n",
+        "print(len(R))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6AiaLdyYw8dy",
+        "outputId": "8260a6fd-6852-4038-f88f-69cfff1749a0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "R=[ ]\n",
+        "print(len(R))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sTHWH6LvxBSK",
+        "outputId": "870b9620-c102-489b-987b-9fc125c862b9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# accessing individual items in the list\n",
+        "\n",
+        "# understanding the concept of indexing\n",
+        "\n",
+        "print(fav_list1[0])\n",
+        "print(fav_list1[3])\n",
+        "print(fav_list1[6])\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sIe9L_1DxJ25",
+        "outputId": "22eb56c0-eb54-43c9-ed37-b48dad083ab4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Banana\n",
+            "66\n",
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Capital_states = [\"Bhopal\",\"Mumbai\",\"Imphal\",\"Shillong\",\"Aizawl\",\"Kohima\"]\n",
+        "\n",
+        "# Find the length of list Capital_states\n",
+        "\n",
+        "print(len(Capital_states))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "z7yOPr_9xvf3",
+        "outputId": "6c114c72-58cf-4cb2-a405-308027564085"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#PRINT BELOW ITEMS USING INDEXING IN THE LIST  capital_states\n",
+        "#OUTPUT SHOULD BE : \"Imphal\"\n",
+        "#OUTPUT SHOULD BE : \"Kohima\"\n",
+        "print(Capital_states[2])\n",
+        "print(Capital_states[5])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yVzGlTgqysgE",
+        "outputId": "8905db1f-9558-4ddd-ed0c-7cb12eddd95c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Imphal\n",
+            "Kohima\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#FIND THE LENGHT OF LIST \n",
+        "z = ['',\"\",\"\",\"\",\"\"]\n",
+        "print(len(z))\n",
+        "z = [None]\n",
+        "print(len(z))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xtmMXKyEzMWX",
+        "outputId": "5700f651-b52a-4f13-c748-e3ac5957b2d1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n",
+            "1\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
